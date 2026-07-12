@@ -1,2 +1,0 @@
-# OsirisEngine
-Osiris Game Engine
