@@ -3,6 +3,9 @@
 *.vcxproj
 *.vcxproj.filters
 
+#AI folders
+*.claude
+
 #build dirs
 bin/
 bin-int/
@@ -434,4 +437,3 @@ API
 Training
 Blog
 About
-
