@@ -1,0 +1,24 @@
+Checks: '-*,readability-identifier-naming'
+HeaderFilterRegex: '.*'
+CheckOptions:
+  - { key: readability-identifier-naming.NamespaceCase,     value: lower_case }
+  - { key: readability-identifier-naming.ClassCase,         value: CamelCase }
+  - { key: readability-identifier-naming.StructCase,        value: CamelCase }
+  - { key: readability-identifier-naming.EnumCase,          value: CamelCase }
+  - { key: readability-identifier-naming.EnumConstantCase,  value: CamelCase }
+  - { key: readability-identifier-naming.TypeAliasCase,     value: CamelCase }
+  - { key: readability-identifier-naming.TypedefCase,       value: CamelCase }
+  - { key: readability-identifier-naming.AbstractClassPrefix, value: 'I' }
+  - { key: readability-identifier-naming.FunctionCase,      value: CamelCase }
+  - { key: readability-identifier-naming.MethodCase,        value: CamelCase }
+  - { key: readability-identifier-naming.VariableCase,      value: lower_case }
+  - { key: readability-identifier-naming.ParameterCase,     value: lower_case }
+  # Инкапсулированные поля класса: префикс m_ + snake_case → m_buffer.
+  - { key: readability-identifier-naming.PrivateMemberPrefix,   value: 'm_' }
+  - { key: readability-identifier-naming.PrivateMemberCase,     value: lower_case }
+  - { key: readability-identifier-naming.ProtectedMemberPrefix, value: 'm_' }
+  - { key: readability-identifier-naming.ProtectedMemberCase,   value: lower_case }
+  # Публичные поля plain-структур (POD/агрегаты) — без префикса.
+  - { key: readability-identifier-naming.PublicMemberCase,  value: lower_case }
+  - { key: readability-identifier-naming.ClassMemberCase,   value: lower_case }
+  - { key: readability-identifier-naming.MacroDefinitionCase, value: UPPER_CASE }

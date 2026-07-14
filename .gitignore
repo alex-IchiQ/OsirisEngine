@@ -425,15 +425,12 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+# CMake / Ninja build output
+/build/
+/out/
+/cmake-build-*/
+
+# vcpkg (manifest-mode local install)
+/vcpkg_installed/
+CMakeUserPresets.json

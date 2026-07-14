@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "osiris-engine",
+  "version": "0.0.1",
+  "description": "Osiris — modular C++ game engine with reflection-driven tooling.",
+  "dependencies": [
+    "gtest",
+    "shader-slang"
+  ]
+}
