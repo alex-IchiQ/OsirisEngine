@@ -5,11 +5,6 @@
 и построить чистую, модульную, data-driven архитектуру с несколькими RHI-бэкендами
 и редактором, управляемым рефлексией.
 
-## Как читать
-
-Документы пронумерованы в порядке чтения. Каждый — самодостаточный, чтобы можно было
-продолжить обсуждение в отдельном чате или вырезать в статью.
-
 | # | Документ | О чём |
 |---|----------|-------|
 | 00 | [Vision & Principles](architecture/00-vision-and-principles.md) | Зачем, за счёт чего, ключевые принципы, нефункциональные требования |
@@ -21,14 +16,6 @@
 | 06 | [Open Decisions](architecture/06-open-decisions.md) | Развилки: статусы, варианты, рекомендации |
 | 07 | [Application & Sandbox](architecture/07-application-and-sandbox.md) | Каркас приложения, Sandbox/Editor/Player, layer stack (по мотивам Hazel) |
 | 08 | [Module System & ABI](architecture/08-module-system-and-abi.md) | **Заменяемые DLL-подсистемы** (Audio/Render/…), ABI-границы, общий core, ModuleManager |
-
-## Этапы (milestones)
-
-- [M0 — Foundation](milestones/M0-foundation.md) — **что делать дальше**: тулчейн, скелет, ядро, кодоген-рефлексия
-
-## Статьи (черновики)
-
-- [articles/reflection-driven-editor.md](articles/reflection-driven-editor.md) — почему рефлексия меняет всё в редакторе
 
 ## Глоссарий кодовых имён
 
