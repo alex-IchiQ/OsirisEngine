@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate osiris.reflect registration from OCLASS/OPROPERTY-marked headers.
+"""Generate osiris.reflect registration from CLASS/PROPERTY-marked headers.
 
 Parses a header with libclang (with OSIRIS_CODEGEN defined so the markers become
 clang annotations), then emits a .reflect.gen.cpp that specializes type_of<T>() and
